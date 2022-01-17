@@ -1,7 +1,7 @@
 body{ min-width: 1280px;}
 header{text-align:center; height:80px; position: relative;}
 header h1{ position: absolute;left:50px;top:0; }
-header h1 a{margin-top:20px;display:block;width:150px;height:60px;color:transparent;background:url("https://jaeChan2a.github.io/make a website/images/header_logo.png") no-repeat }
+header h1 a{margin-top:20px;display:block;width:150px;height:60px;color:transparent;background:url("https://jaeChan2a.github.io/htmlCss/make a website/images/header_logo.png") no-repeat }
 
 
 header .nav1 li{ display:inline-block;}
