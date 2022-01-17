@@ -43,3 +43,19 @@ header .nav2 li:last-child a {padding-right:0}
                       color:#fff; font-size:32px;line-height:46px;}
 .visual .con .slide p{font-size:20px;padding:19px;line-height:100%;}
 .visual .con .slide .txt{position: absolute;left:40%;top:20px;}
+
+
+
+.product a {display:block;color:#0001829; font-size: 15px;}
+.product a:hover{color:#2d5b79;font-weight: bold;}
+.product a:before{display:block;width:63px;height:31px;  content:"";margin-left:20px;margin-bottom:10px;}
+.product ul{text-align: center;padding:46px 0 41px;font-size:0;}
+.product li{width:63px;display:inline-block;text-align:center;padding:4px 55px;}
+.product li:nth-child(1) a:before{background:url("https://jaeChan2a.github.io/htmlCss/make a website/images/ico_contents_share_kakaotalk.png") no-repeat}
+.product li:nth-child(2) a:before{background:url("https://jaeChan2a.github.io/htmlCss/make a website/images/ico_contents_share_google.png") no-repeat}
+.product li:nth-child(3) a:before{background:url("https://jaeChan2a.github.io/htmlCss/make a website/images/ico_contents_share_facebook.png") no-repeat}
+.product li:nth-child(4) a:before{background:url("https://jaeChan2a.github.io/htmlCss/make a website/images/ico_contents_share_twitter.png") no-repeat}
+.product li:nth-child(1):hover{border:2px solid #2d5b79;border-radius:10px;}
+.product li:nth-child(2):hover{border:2px solid #2d5b79;border-radius:10px;}
+.product li:nth-child(3):hover{border:2px solid #2d5b79;border-radius:10px;}
+.product li:nth-child(4):hover{border:2px solid #2d5b79;border-radius:10px;}
