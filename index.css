@@ -1,0 +1,45 @@
+body{ min-width: 1280px;}
+header{text-align:center; height:80px; position: relative;}
+header h1{ position: absolute;left:50px;top:0; }
+header h1 a{margin-top:20px;display:block;width:150px;height:60px;color:transparent;background:url("../make a website/images/header_logo.png") no-repeat }
+
+
+header .nav1 li{ display:inline-block;}
+header .nav1 li a{display:block;height:81px;padding:0 35px;font-size: 15px;line-height:81px;}
+header .nav1 li a:hover{ color:blue; font-weight:bold;}
+header .nav1 li a:hover span:after{ content: "";position:absolute; left:0;bottom:-9px; width:100%;display:block;height:1px; background:black;}
+header .nav1 li span{position: relative;}
+
+header .nav2{position: absolute;right:50px; top:0}
+header .nav2 li{ position:relative;float:left;}
+header .nav2 li:after{ content: ""; position: absolute; left:0;top:50%; width:2px; height:10px;background:gray; transform: translateY(-50%);}
+header .nav2 li:first-child:after { display:none;}
+header .nav2 li a{display:block;height:81px;padding:0 10px;line-height: 81px;}
+header .nav2 li:last-child a {padding-right:0}
+
+
+.visual { position: relative;padding:0 50px;}
+.visual .prev,
+.visual .next{ display: block;position: absolute;top:55%;transform: translateY(-50%); width:25px;height:47px;color:transparent;}
+.visual .prev{ left:175px;background:url("../make a website/images/btn_swiper_arrow_left.png") no-repeat;}
+.visual .next{ right:175px;background:url("../make a website/images/btn_swiper_arrow_right.png") no-repeat;}
+.visual .control{position: absolute;width:100%;left: 0;bottom: 55px;text-align: center;}
+.visual .control>div {display: inline-block;position: relative;padding: 0 45px 0 0;}
+.visual .control>div > div{position: absolute;right:0;}
+.visual .control>div > div a{ display:inline-block;width:12px;height:14px;overflow: hidden;margin:0 0 0 5px;opacity: 0.5;}
+.visual .control>div > div a.on{opacity: 1;}
+.visual .control>div > div a.play{background:url("../make a website/2.png") no-repeat;background-size:12px;}
+.visual .control>div > div a.pause{background:url("../make a website/1.png") no-repeat;background-size:12px;}
+.visual .control ul{display:inline-block; position: relative;top: 4px;}
+.visual .control li{display: inline-block;padding:3px;}
+.visual .control li.on a{background:#fff;}
+.visual .control li a{ display:block;width:50px;height:3px;background:rgba(255, 255, 255, 0.5);border:none;}
+.visual .control a{color:transparent;}
+
+
+
+.visual .con > div { height:640px;}
+.visual .con .slide { background: url("../make a website/images/banner_2022011311362039751.jpg") no-repeat center;background-size: 540px;background-color:#E3CEF6;border-radius:20px;
+                      color:#fff; font-size:32px;line-height:46px;}
+.visual .con .slide p{font-size:20px;padding:19px;line-height:100%;}
+.visual .con .slide .txt{position: absolute;left:40%;top:20px;}
